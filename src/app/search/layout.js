@@ -9,7 +9,7 @@ export const metadata = {
 
 export default function SearchLayOut({children}) {
   return (
-    <div>
+    <div className=''>
       <link rel="icon" href="/favicon.svg"/>
         <SearchHeader/>
         {children}

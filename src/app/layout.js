@@ -14,12 +14,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <link rel="icon" href="/favicon.svg"/>
       <body className={inter.className}>
-        {children}
+         <div className='flex flex-col min-h-screen'>
+          {children}
         
-        {/*Footer*/}
-
-        <Footer/>
-        
+          <Footer/> 
+        </div>
         </body>
     </html>
   )
