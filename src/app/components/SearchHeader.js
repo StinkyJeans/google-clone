@@ -9,7 +9,7 @@ import SearchHeaderOptions from './SearchHeaderOptions'
 export default function SearchHeader() {
   return (
   <header className='sticky top-0 bg-white'>
-    <div className='flex w-full p-6 items center justify-between'>
+    <div className='flex w-full p-6 items center justify-between items-center'>
       <Link href={"/"}>
         <Image width="120" height="40" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png"/>
       </Link>
